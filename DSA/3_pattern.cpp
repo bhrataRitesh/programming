@@ -239,20 +239,63 @@ int main() {
 // A B C
 // A B C
 
+// int n;
+//     cin>>n;
+//     int i=1;
+   
+//     while(i<=n){
+//         int j=1;
+       
+//         while(j<=n){
+//             char c='A'+j-1;
+//             cout<<c<<" "; 
+            
+//             j++;
+//         }
+        
+//         cout<<endl;
+//         i++;
+//     }
+    // 11. pattern
+// A B C
+// D E F
+// G H I
+// int n;
+//     cin>>n;
+//     int i=1;
+//    char c='A';
+//     while(i<=n){
+//         int j=1;
+       
+//         while(j<=n){
+            
+//             cout<<c<<" "; 
+//             c=c+1;
+//             j++;
+//         }
+        
+//         cout<<endl;
+//         i++;
+//     }
+
+// 12. Pattern 
+// A B C 
+// B C D 
+// C D E 
 int n;
     cin>>n;
     int i=1;
-   
+   char c='A';
     while(i<=n){
         int j=1;
        
         while(j<=n){
-            char c='A';
-            cout<<c<<" "; 
-            c=c+1;;
+            char m=c+j-1;
+            cout<<m<<" "; 
+            
             j++;
         }
-        
+        c=c+1;
         cout<<endl;
         i++;
     }
