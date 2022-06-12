@@ -1,57 +1,58 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
- 
-int main() {
-//1. pattern is 
-// 1 2 3 4 5 ....n
-// 1 2 3 4 5 ....n
-// int n;
-//     cin>>n;
-//     int i=1;
-//     while(i<=n){
-//         int j=1;
-//         while(j<=n){
-//             cout<<j;
-//             j++;
-//         }
-//         cout<<endl;
-//         i++;
-//     }
 
-    //2. pattern
-    // n ... 3 2 1
-    // n ... 3 2 1
+int main()
+{
+    // 1. pattern is
+    //  1 2 3 4 5 ....n
+    //  1 2 3 4 5 ....n
+    //  int n;
+    //      cin>>n;
+    //      int i=1;
+    //      while(i<=n){
+    //          int j=1;
+    //          while(j<=n){
+    //              cout<<j;
+    //              j++;
+    //          }
+    //          cout<<endl;
+    //          i++;
+    //      }
+
+    // 2. pattern
+    //  n ... 3 2 1
+    //  n ... 3 2 1
+    //  int n;
+    //  cin>>n;
+    //  int i=1;
+    //  while(i<=n){
+    //      int j=1;
+    //      while(j<=n){
+    //          cout<<n-j+1;
+    //          j++;
+    //      }
+    //      cout<<endl;
+    //      i++;
+    //  }
+    // 3. pattern
+    //  1 2 3
+    // 4 5 6
+    // 7 8 9
     // int n;
-    // cin>>n;
-    // int i=1;
-    // while(i<=n){
-    //     int j=1;
-    //     while(j<=n){
-    //         cout<<n-j+1;
-    //         j++;
+    //     cin>>n;
+    //     int i=1;
+    //     int count =0;
+    //     while(i<=n){
+    //         int j=1;
+    //         while(j<=n){
+    //              count++;
+    //             cout<<count;
+
+    //             j++;
+    //         }
+    //         cout<<endl;
+    //         i++;
     //     }
-    //     cout<<endl;
-    //     i++;
-    // }
-    //3. pattern 
-    // 1 2 3
-    //4 5 6
-    //7 8 9
-// int n;
-//     cin>>n;
-//     int i=1;
-//     int count =0;
-//     while(i<=n){
-//         int j=1;
-//         while(j<=n){
-//              count++;
-//             cout<<count;
-           
-//             j++;
-//         }
-//         cout<<endl;
-//         i++;
-//     }
     // 4. pattern
     // *
     // **
@@ -62,20 +63,20 @@ int main() {
     // int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
     //     while(j<=i){
-            
+
     //         cout<<"*";
-           
+
     //         j++;
     //     }
     //     cout<<endl;
     //     i++;
     // }
 
-    // 5. pattern 
+    // 5. pattern
     // 1
     // 22
     // 333
@@ -84,28 +85,28 @@ int main() {
     //   int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
     //     while(j<=i){
-            
+
     //         cout<<i;
-           
+
     //         j++;
     //     }
     //     cout<<endl;
     //     i++;
     // }
-    
-    // 6. pattern 
+
+    // 6. pattern
     //   int n;
     // cin>>n;
     // int i=1,count=1;
-   
+
     // while(i<=n){
     //     int j=1;
     //     while(j<=i){
-            
+
     //         cout<<count;
     //        count++;
     //         j++;
@@ -114,7 +115,7 @@ int main() {
     //     i++;
     // }
 
-    // 7. pattern 
+    // 7. pattern
     // 1
     // 23
     // 345
@@ -123,12 +124,12 @@ int main() {
     //  int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
     //    int count=i;
     //     while(j<=i){
-            
+
     //         cout<<count;
     //        count++;
     //         j++;
@@ -136,25 +137,25 @@ int main() {
     //     cout<<endl;
     //     i++;
     // }
-    // or 
+    // or
     //  int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
-       
+
     //     while(j<=i){
-            
+
     //         cout<<i+j-1;
-           
+
     //         j++;
     //     }
     //     cout<<endl;
     //     i++;
     // }
 
-    // 8. pattern 
+    // 8. pattern
     // 1
     // 21
     // 321
@@ -162,12 +163,12 @@ int main() {
     //  int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
     //    int count=i;
     //     while(j<=i){
-            
+
     //         cout<<count;
     //        count--;
     //         j++;
@@ -175,129 +176,305 @@ int main() {
     //     cout<<endl;
     //     i++;
     // }
-    // or 
+    // or
     //  int n;
     // cin>>n;
     // int i=1;
-   
+
     // while(i<=n){
     //     int j=1;
-       
+
     //     while(j<=i){
-            
+
     //         cout<<i-j+1;
-           
+
     //         j++;
     //     }
     //     cout<<endl;
     //     i++;
     // }
 
-    // 9. pattern 
-    
-//      int n;
-//     cin>>n;
-//     int i=1;
-//    char c='A';
-//     while(i<=n){
-//         int j=1;
-       
-//         while(j<=n){
-            
-//             cout<<c<<" ";
-            
-           
-//             j++;
-//         }
-//         c++;
-//         cout<<endl;
-//         i++;
-//     }
-//or
+    // 9. pattern
 
-// int n;
-//     cin>>n;
-//     int i=1;
-   
-//     while(i<=n){
-//         int j=1;
-       
-//         while(j<=n){
-//             char c='A'+i-1;
-//             cout<<c<<" ";
-            
-           
-//             j++;
-//         }
-        
-//         cout<<endl;
-//         i++;
-//     }
+    //      int n;
+    //     cin>>n;
+    //     int i=1;
+    //    char c='A';
+    //     while(i<=n){
+    //         int j=1;
 
-// 10. pattern
-// A B C
-// A B C
-// A B C
+    //         while(j<=n){
 
-// int n;
-//     cin>>n;
-//     int i=1;
-   
-//     while(i<=n){
-//         int j=1;
-       
-//         while(j<=n){
-//             char c='A'+j-1;
-//             cout<<c<<" "; 
-            
-//             j++;
-//         }
-        
-//         cout<<endl;
-//         i++;
-//     }
+    //             cout<<c<<" ";
+
+    //             j++;
+    //         }
+    //         c++;
+    //         cout<<endl;
+    //         i++;
+    //     }
+    // or
+
+    // int n;
+    //     cin>>n;
+    //     int i=1;
+
+    //     while(i<=n){
+    //         int j=1;
+
+    //         while(j<=n){
+    //             char c='A'+i-1;
+    //             cout<<c<<" ";
+
+    //             j++;
+    //         }
+
+    //         cout<<endl;
+    //         i++;
+    //     }
+
+    // 10. pattern
+    // A B C
+    // A B C
+    // A B C
+
+    // int n;
+    //     cin>>n;
+    //     int i=1;
+
+    //     while(i<=n){
+    //         int j=1;
+
+    //         while(j<=n){
+    //             char c='A'+j-1;
+    //             cout<<c<<" ";
+
+    //             j++;
+    //         }
+
+    //         cout<<endl;
+    //         i++;
+    //     }
     // 11. pattern
-// A B C
-// D E F
-// G H I
-// int n;
-//     cin>>n;
-//     int i=1;
-//    char c='A';
-//     while(i<=n){
-//         int j=1;
-       
-//         while(j<=n){
-            
-//             cout<<c<<" "; 
-//             c=c+1;
-//             j++;
-//         }
-        
-//         cout<<endl;
-//         i++;
-//     }
+    // A B C
+    // D E F
+    // G H I
+    // int n;
+    //     cin>>n;
+    //     int i=1;
+    //    char c='A';
+    //     while(i<=n){
+    //         int j=1;
 
-// 12. Pattern 
-// A B C 
-// B C D 
-// C D E 
+    //         while(j<=n){
+
+    //             cout<<c<<" ";
+    //             c=c+1;
+    //             j++;
+    //         }
+
+    //         cout<<endl;
+    //         i++;
+    //     }
+
+    // 12. Pattern
+    // A B C
+    // B C D
+    // C D E
+    // int n;
+    //     cin>>n;
+    //     int i=1;
+    //    char c='A';
+    //     while(i<=n){
+    //         int j=1;
+
+    //         while(j<=n){
+    //             char m=c+j-1;
+    //             cout<<m<<" ";
+
+    //             j++;
+    //         }
+    //         c=c+1;
+    //         cout<<endl;
+    //         i++;
+    //     }
+    // 13. Pattern
+    // A
+    // B B
+    // C C C
+    // int n;
+    // cin>>n;
+    // int i=1;
+
+    // while(i<=n){
+    //     int j=1;
+
+    //     while(j<=i){
+    //         char c='A'+i-1;
+    //         cout<<c;
+    //         j++;
+    //     }
+    //     cout<<endl;
+
+    // i++;
+    // }
+    // 14. Pattern
+    // A
+    // B C
+    // D E F
+
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // char c='A';
+    // while(i<=n){
+    //     int j=1;
+
+    //     while(j<=i){
+    //         // char m=c+j-1;
+    //         cout<<c;
+    //         j++;
+    //         c++;
+    //     }
+    //     cout<<endl;
+
+    // i++;
+    // }
+
+    // 15. Pattern
+    //  A
+    //  B C
+    //  C D E
+    //  int n;
+    //  cin>>n;
+    //  int i=1;
+
+    // while(i<=n){
+    //     int j=1;
+
+    //     while(j<=i){
+    //         char m='A'+i+j-2;
+    //         cout<<m;
+    //         j++;
+
+    //     }
+    //     cout<<endl;
+
+    // i++;
+    // }
+
+    // 16. Pattern
+    // D
+    // C D
+    // B C D
+    // A B C D
+
+    // int n;
+    // cin >> n;
+    // int i = 1;
+    // char c = 'A' + n - 1;
+    // while (i <= n)
+    // {
+    //     int j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << c;
+    //         c++;
+    //         j++;
+    //     }
+    //     cout << endl;
+        
+    //     i++;
+    //     c=c-i;
+    // }
+
+    // 17. Pattern
+    //     *
+    //    **
+    //   ***
+    //  ****
+//  int n;
+//  cin>>n;
+//  int i=1;
+//  while(i<=n){
+//     int space=n-i;
+//     while(space){
+//         cout<<' ';
+//         space--;
+//     }
+//     int j=1;
+//     while(j<=i){
+//         cout<<'*';
+//        j++;
+//     }
+//     cout<<endl;
+//     i++;
+//  }
+
+// 18. Pattern 
+// ****
+// ***
+// **
+// *
+// int i;
+// cin>>i;
+// // int i=n;
+// while(i>=0){
+//     int j=1;
+//     while(j<=i){
+//         cout<<'*';
+//         j++;
+//     }
+//     cout<<endl;
+//     i--;
+// }
+
+// 19. Pattern 
+// *****
+//  ****
+//   ***
+//    **
+//     *
+
+// int n;
+// cin>>n;
+// int i=1;
+// while(i<=n){
+//    int space=i;
+//     while(space!=1){
+//         cout<<' ';
+//     space=space-1;
+//     }
+//     int j=n;
+//     while(j>=i){
+//         cout<<'*';
+//         j--;
+//     }
+//     i++;
+//     cout<<endl;
+// }
+
+// 20. Pattern
+// 1111
+//  222
+//   33
+//    4
 int n;
-    cin>>n;
-    int i=1;
-   char c='A';
-    while(i<=n){
-        int j=1;
-       
-        while(j<=n){
-            char m=c+j-1;
-            cout<<m<<" "; 
-            
-            j++;
-        }
-        c=c+1;
-        cout<<endl;
-        i++;
+cin>>n;
+int i=1;
+while(i<=n){
+   int space=i;
+    while(space!=1){
+        cout<<' ';
+    space=space-1;
     }
-return 0 ;
+    int j=n;
+    while(j>=i){
+        cout<<i;
+        j--;
+    }
+    cout<<endl;
+    i++;
+}
+    return 0;
 }
