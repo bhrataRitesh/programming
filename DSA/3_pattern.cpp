@@ -383,7 +383,7 @@ int main()
     //         j++;
     //     }
     //     cout << endl;
-        
+
     //     i++;
     //     c=c-i;
     // }
@@ -393,88 +393,237 @@ int main()
     //    **
     //   ***
     //  ****
-//  int n;
-//  cin>>n;
-//  int i=1;
-//  while(i<=n){
-//     int space=n-i;
-//     while(space){
-//         cout<<' ';
-//         space--;
-//     }
-//     int j=1;
-//     while(j<=i){
-//         cout<<'*';
-//        j++;
-//     }
-//     cout<<endl;
-//     i++;
-//  }
+    //  int n;
+    //  cin>>n;
+    //  int i=1;
+    //  while(i<=n){
+    //     int space=n-i;
+    //     while(space){
+    //         cout<<' ';
+    //         space--;
+    //     }
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<'*';
+    //        j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    //  }
 
-// 18. Pattern 
-// ****
-// ***
-// **
-// *
-// int i;
-// cin>>i;
-// // int i=n;
-// while(i>=0){
-//     int j=1;
-//     while(j<=i){
-//         cout<<'*';
-//         j++;
-//     }
-//     cout<<endl;
-//     i--;
-// }
+    // 18. Pattern
+    // ****
+    // ***
+    // **
+    // *
+    // int i;
+    // cin>>i;
+    // // int i=n;
+    // while(i>=0){
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<'*';
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i--;
+    // }
 
-// 19. Pattern 
-// *****
-//  ****
-//   ***
-//    **
-//     *
+    // 19. Pattern
+    // *****
+    //  ****
+    //   ***
+    //    **
+    //     *
 
-// int n;
-// cin>>n;
-// int i=1;
-// while(i<=n){
-//    int space=i;
-//     while(space!=1){
-//         cout<<' ';
-//     space=space-1;
-//     }
-//     int j=n;
-//     while(j>=i){
-//         cout<<'*';
-//         j--;
-//     }
-//     i++;
-//     cout<<endl;
-// }
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while(i<=n){
+    //    int space=i;
+    //     while(space!=1){
+    //         cout<<' ';
+    //     space=space-1;
+    //     }
+    //     int j=n;
+    //     while(j>=i){
+    //         cout<<'*';
+    //         j--;
+    //     }
+    //     i++;
+    //     cout<<endl;
+    // }
 
-// 20. Pattern
-// 1111
-//  222
-//   33
-//    4
-int n;
-cin>>n;
-int i=1;
-while(i<=n){
-   int space=i;
-    while(space!=1){
-        cout<<' ';
-    space=space-1;
-    }
-    int j=n;
-    while(j>=i){
-        cout<<i;
+    // 20. Pattern
+    // 1111
+    //  222
+    //   33
+    //    4
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while(i<=n){
+    //    int space=i;
+    //     while(space!=1){
+    //         cout<<' ';
+    //     space=space-1;
+    //     }
+    //     int j=n;
+    //     while(j>=i){
+    //         cout<<i;
+    //         j--;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+    // 21. Pattern
+    //    1
+    //   22
+    //  333
+    // 4444
+
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while(i<=n){
+    //     int space=n-i;
+    //     while(space){
+    //         cout<<' ';
+    //         space--;
+    //     }
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<i;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 22. Pattern
+
+    // 1234
+    //  234
+    //   34
+    //    4
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while(i<=n){
+    //    int space=i;
+    //     while(space!=1){
+    //         cout<<' ';
+    //     space=space-1;
+    //     }
+    //     int j=n;
+    //     int a=i;
+    //     while(j>=i){
+    //         cout<<a;
+    //         j--;
+    //         a++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 23. Pattern
+    //    1
+    //   23
+    //  456
+    // 78910
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // int a=i;
+    // while(i<=n){
+    //     int space=n-i;
+    //     while(space){
+    //         cout<<' ';
+    //         space=space-1;
+    //     }
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<a;
+    //         a++;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 24. Pattern
+    //    1
+    //   121
+    //  12321
+    // 1234321
+
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while(i<=n){
+    //     int space=n-i;
+    //     while(space){
+    //         cout<<' ';
+    //         space--;
+    //     }
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<j;
+    //         j++;
+    //     }
+    //     int count=i-1;
+    //     while(count)
+    //     {
+    //         cout<<count;
+    //         count--;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+    // Dabangg Pattern
+    // 1234554321
+    // 1234**4321
+    // 123****321
+    // 12******21
+    // 1********1
+
+    int n;
+    cin >> n;
+    int i = 1;
+    int j = n;
+    while (i <= n)
+    {
+        int count1 = 1;
+        while (count1 <= j)
+        {
+            cout << count1;
+            count1++;
+        }
+        if (i != 1)
+        {
+            int star1 = 1;
+            while (star1 <= i-1)
+            {
+                cout << '*';
+                star1++;
+            }
+            int star2 = 1;
+            while (star2 <= i-1)
+            {
+                cout << '*';
+                star2++;
+            }
+        }
+        int count2 = j;
+        while (count2)
+        {
+            cout << count2;
+            count2--;
+        }
+        cout << endl;
+        i++;
         j--;
     }
-    cout<<endl;
-    i++;
-}
+
     return 0;
 }
