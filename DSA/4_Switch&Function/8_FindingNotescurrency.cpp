@@ -10,6 +10,7 @@ int main() {
   switch(1)
   {
       case 1: Rs100=amount/100;
+              
               amount=amount%100;
               cout<<"No of 100 Rupee notes required are="<<Rs100<<endl;
               
