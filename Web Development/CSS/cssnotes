@@ -1,0 +1,46 @@
+css- cascade stylesheet
+
+use of css style 
+    1. inner style in any tag
+    2. in the same html documet in head tag
+    3. on other file linked using ref
+
+css selector
+
+    1. Element selector
+    2. id selector 
+    3. class selector
+
+        selector preference when used in same tag
+        //it use the  id>class>element 
+
+css comment
+
+shortcut ctrl + / 
+
+/* comment */ single line
+/*
+*/ multi line comment
+
+css color 
+can be use many 
+    1. RGB
+    2. Rgba (rgb alpha) //alpha ka vale 0-1 use to show transparency 
+    3. HEX //hexadecimal
+    4. HSl //hue(0-360 degree),saturation(0-100%), lightness(0-100%)
+    5. HSla (alpha) it also uses transparency
+    
+css background
+
+can be used color and image 
+    for image 
+        /* image can also be use 
+        background-image: url('image source')*/
+
+    for color 
+        /* background-color: */
+        is used
+
+ css border   
+ can be givenn in % ,px
+ -      

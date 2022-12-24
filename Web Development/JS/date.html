@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>date</title>
+</head>
+<body>
+<script type="text/javascript">
+    var today = new Date();
+    var dateString = today.toLocaleString();
+    var month = today.getMonth();
+    var year = today.getYear();
+    var time = today.getTime();
+    var hours = today.getHours();
+    var minute = today.getMinutes();
+    var second = today.getSeconds();
+    var miliseconds = today.getMilliseconds();
+    document.write(today + dateString + month + year + time + hours + minute + second + miliseconds);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#brd{
+    
+    border-width: 3px;
+    border-style: solid dotted dashed inset ;
+    border-color: red;
+    border-radius: 10px;
+    /* border styles are //solid, dotted dashed inset outset ridge */
+
+    /* outline */
+    outline-style: dashed;
+    outline-width: 3px;
+    outline-color: green;
+    outline-offset: 6px; /*gives gaps between border and out line*/
+
+    /* padding : gap between content and border*/
+    padding:30px 5px 9px 11px; 
+
+    /* margin : gap between two contents */
+    margin: 30px;
+
+    /* min height and min width use for border height and width */
+
+    /* img width use for fitting the image in the border for responsive purpose
+     */
+}

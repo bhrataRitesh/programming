@@ -1,0 +1,29 @@
+p{
+    color:red
+} 
+#id{
+    color: skyblue
+}
+
+.green-text{
+    color: green
+}
+
+#h{
+    font-size: 80px;
+}
+/* comment */ 
+#bg{
+    /* background-color: yellow */
+    /* image can also be use */
+    background-image: url('C:\Users\Ritesh\Desktop\FkA67cJVsAATF3S-1.png');
+    background-repeat: no-repeat ;
+    border-style: solid dashed none dotted;
+    border-width: 5px 10px 2px 7px;
+    /* top bottom right left */
+    border-color: red;
+    border-radius : 5px;
+    height: 50%;
+    width: 50%;
+    padding: 20%; /*show gap between content and border*/
+}
