@@ -1,0 +1,48 @@
+li,
+ul {
+    display: inline;
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+
+    display: flex;
+    /* border: 1px red solid; */
+    flex: 1;
+    max-width: 50%;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+    h1 {
+        color: purple;
+        /* text-align: center; */
+        font-size: 4em;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+@media (orientation:landscape) {
+    body {
+        background-color: #0A2647;
+    }
+}
