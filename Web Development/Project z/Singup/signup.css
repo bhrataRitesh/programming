@@ -1,0 +1,121 @@
+/* main content  */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    /* background-image: url(background/background-image.jpg) no-repeat;
+    background-size: 100%; */
+    /* background-color: #A3C7D6; */
+    background-color: #FF5349;
+    /* background-image: url(background/background1.png); */
+    height: 100%;
+}
+
+#signup-border {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    /* min-height: 70vh; */
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 35%;
+    padding: 10px;
+    box-shadow: 0 0.5em 0.8em -0.24em;
+    /* opacity: 0.8; */
+
+
+}
+
+.form-element {
+    /* margin: 15px; */
+    padding: 10px;
+    width: 100%;
+}
+
+#name {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#first-name {
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+#last-name {
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 2px;
+    /* color: gray; */
+    border: 1px solid gray;
+}
+
+
+
+#email {
+    width: 100%;
+    height: 40px;
+    background: url(icons/email.png) no-repeat left;
+    background-size: 5%;
+    padding: 3px 26px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#password {
+    width: 100%;
+    height: 40px;
+    background: url(icons/padlock.png) no-repeat left;
+    background-size: 5%;
+    padding: 3px 26px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+/* #checkbox-terms {
+    padding: 15px;
+    width: 100%;
+} */
+
+/* #signup-button {
+    padding: 15px;
+    width: 100%;
+} */
+
+#signup-button1 {
+    padding: 15px;
+    width: 100%;
+    background-color: #FF5349;
+    border: 1px solid #FF5349;
+    border-radius: 5px;
+    /* font-style: italic; */
+    font-size: 22px;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.24em;
+    cursor: pointer;
+}
+
+#existing {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #FF5349;
+}
