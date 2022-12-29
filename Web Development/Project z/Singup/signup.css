@@ -11,8 +11,9 @@ body {
     /* background-image: url(background/background-image.jpg) no-repeat;
     background-size: 100%; */
     /* background-color: #A3C7D6; */
-    background-color: #FF5349;
-    /* background-image: url(background/background1.png); */
+    /* background-color: #FF5349; */
+        background-image: url(background/background2.jpg);
+        background-size: cover;
     height: 100%;
 }
 
@@ -71,6 +72,7 @@ body {
     height: 40px;
     background: url(icons/email.png) no-repeat left;
     background-size: 5%;
+    background-position-x: 4px;
     padding: 3px 26px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -81,6 +83,7 @@ body {
     height: 40px;
     background: url(icons/padlock.png) no-repeat left;
     background-size: 5%;
+    background-position-x: 3px;
     padding: 3px 26px;
     border-radius: 5px;
     border: 1px solid gray;
