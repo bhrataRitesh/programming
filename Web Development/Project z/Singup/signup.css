@@ -14,13 +14,14 @@ body {
     /* background-color: #FF5349; */
         background-image: url(background/background2.jpg);
         background-size: cover;
+        background-position: fixed;
     height: 100%;
 }
 
 #signup-border {
     background-color: white;
     border-radius: 10px;
-    width: 400px;
+    min-width: 350px;
     /* min-height: 70vh; */
     border: 2px solid white;
     display: flex;
