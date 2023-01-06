@@ -104,3 +104,45 @@ div h3{
 /* know more bar over */
 
 /* hand craft curation */
+
+div h2{
+    margin-top:1.5rem;
+    margin-left: 4.8rem;
+}
+
+#curations{
+    margin-top: 1.2rem;
+   
+    /* margin-left: 4.8rem; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.handpicked{
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+   
+    font-style: bold;
+}
+
+.handpicked img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* handpicked over */
+
+/* Recommends started */
+
+#recommends div h2{
+    margin-top: 1.5rem;
+}
+
