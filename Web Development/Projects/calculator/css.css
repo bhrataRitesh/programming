@@ -3,14 +3,41 @@ body {
 }
 
 table {
-    color: orange;
+    color: rgb(255, 255, 255);
 
 }
+h1{
+    text-align: center;
+}
+.calculator {
+   /* align-items: center; */
+   width: 300px;
+   /* height: 50%; */
+   margin: 10% 40%;
 
-#calculator {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: center;
+   border-radius: 10px;
+   border: 2px solid red;
+}
+input{
+    width: 290px;
+    height:40px;
+}
+
+table{
+    border-radius: 10px;
+}
+
+td{
+    border: none;
+    background: rgba(27, 27, 27, 0.603);
+}
+
+tr td{
+    padding: 30px;
+    font-size: larger;
+}
+
+tr td :hover{
+    background-color: aqua;
+    color: blue   ;
 }
