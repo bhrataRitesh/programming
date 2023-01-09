@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html>
-
-    <head>
-        <title>Calculator</title>
-        <link rel="stylesheet" href="css.css">
-    </head>
-
-    <body>
-
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
         <div class="calculator">
-            <h1>Calculator</h1>
-            <div class="display">
-                <input type="text">
-            </div>
-            <div class="input">
-                <table class="input-table" border="4px">
-                    <tr>
-                        <td>C</td>
-                        <td>/</td>
-                        <td>*</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td rowspan="2">+</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td rowspan="2">=</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">0</td>
-                        <td>.</td>
-                        
-                    </tr>
-
-                </table>
+            <form action="">
+                <div class="display">
+                    <input type="text" name="display1">
+                    </div>
+                <div>
+                    <button value="AC" onclick="display1.value = '' ">AC</button>
+                    <button value="DE" onclick="display1.value = display1.value.toString().slice(0,-1) ">DE</button>
+                    <button value="." onclick="display1.value += '.' ">.</button>
+                    <button value="/" onclick="display1.value += '/' ">/</button>
+                </div>
+                <div>
+                    <button value="7" onclick="display1.value += '7' ">7</button>
+                    <button value="8" onclick="display1.value += '8' ">8</button>
+                    <button value="9" onclick="display1.value += '9' ">9</button>
+                    <button value="-" onclick="display1.value += '-' ">-</button>
+                </div>
+                <div>
+                    <button value="4" onclick="display1.value += '4' ">4</button>
+                    <button value="5" onclick="display1.value += '5' ">5</button>
+                    <button value="6" onclick="display1.value += '6' ">6</button>
+                    <button value="*" onclick="display1.value += '*' ">*</button>
+                </div>
+                <div>
+                    <button value="1" onclick="display1.value += '1' ">1</button>
+                    <button value="2" onclick="display1.value += '2' ">2</button>
+                    <button value="3" onclick="display1.value += '3' ">3</button>
+                    <button value="+" onclick="display1.value += '+' ">+</button>
+                </div>
+                <div>
+                    <button value="00" onclick="display1.value += '00' ">00</button>
+                    <button value="0" onclick="display1.value += '0' ">0</button>
+                    <!-- <button value=".">.</button> -->
+                    <button value="=" class="equal">=</button>
+                </div>
+                </form>
             </div>
         </div>
-
-        <script src="script.js"></script>
-    </body>
-
+</body>
 </html>

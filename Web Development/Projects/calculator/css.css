@@ -1,43 +1,66 @@
-body {
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 
-table {
-    color: rgb(255, 255, 255);
-
-}
-h1{
-    text-align: center;
-}
-.calculator {
-   /* align-items: center; */
-   width: 300px;
-   /* height: 50%; */
-   margin: 10% 40%;
-
-   border-radius: 10px;
-   border: 2px solid red;
-}
-input{
-    width: 290px;
-    height:40px;
+.container{
+    width: 100%;
+    height: 100vh;
+    background:#e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-table{
+.calculator{
+    background: #3a4452;
+    padding:20px;
     border-radius: 10px;
 }
 
-td{
-    border: none;
-    background: rgba(27, 27, 27, 0.603);
+.calculator form button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1) , 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
 }
 
-tr td{
-    padding: 30px;
-    font-size: larger;
+form .display{
+
+ 
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
 
-tr td :hover{
-    background-color: aqua;
-    color: blue   ;
+form .display input{
+    /* border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1) , 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px; */
+
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
+    box-shadow: none;
+}
+
+form button.equal{
+    width: 145px;
 }
