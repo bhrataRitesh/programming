@@ -1,0 +1,45 @@
+
+#container{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: 564px;
+    margin-left: 25%;
+}
+
+img{
+    height: 282px;
+    width: 564px;
+    
+}
+
+#name{
+    display: flex;
+    align-items: left;
+    border: 1px solid;
+    width: 564px;
+    
+}
+#name div{
+    font:bold;
+    font-size: 18px;
+}
+
+#score{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    border: 1px solid;
+    width: 564px;
+    /* padding-left: 10px; */
+
+}
+button {
+    /* display: flex;
+    flex-direction: row ;
+    justify-content: space-between; */
+    cursor: pointer;
+}
+

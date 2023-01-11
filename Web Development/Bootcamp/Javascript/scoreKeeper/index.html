@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Score Keeper</title>
+        <link rel="stylesheet" href="app.css">
+        <style>
+            .winner {
+                color: green;
+            }
+
+            .looser {
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <div id="image">
+                <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
+                    alt="">
+            </div>
+            <div id="name">
+                <div>Ping Pong Score Keeper</div>
+            </div>
+            <div id="score">
+
+                <div>
+                    <h1><span id="display1">0</span> to <span id="display2">0</span></h1>
+                </div>
+
+                <div>
+                    <p>Use the buttons below to keep score.</p>
+                </div>
+
+                <div id="players">
+                    <label for="no-players">Players To</label>
+
+                    <select id="no-players">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div id="buttons">
+                <button id="player1" style="background: rgb(10, 191, 223);">+1 Player One</button>
+                <button id="player2" style="background: rgb(201, 178, 76);">+1 Player Two</button>
+                <button id="Reset" style="background: rgb(0, 255, 21);">Reset</button>
+
+            </div>
+        </div>
+        <script src="aap.js"></script>
+    </body>
+
+</html>
