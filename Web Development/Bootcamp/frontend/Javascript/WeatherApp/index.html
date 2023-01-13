@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="find-city"> <input class="city-name" type="text" name="city-name">
+            <button id="search">Find</button>
+        </div>
+        <div class="container">
+
+            <div id="weather-details">
+                <ul>
+                    <li> Cloud Pact : <span id="cloud_pact"></span></li>
+                    <li> Feels Like: <span id="feels_like"></span><span>°C</span> </li>
+                    <li> Humidity: <span id="humidity"></span><span>%</span></li>
+                    <li>Max Temp: <span id="max_temp"></span><span>°C</span></li>
+                    <li>Min Temp: <span id="min_temp"></span><span>°C</span></li>
+                    <li>SunRise: <span id="sunrise"></span></li>
+                    <li>Sunset: <span id="sunset"></span></li>
+                    <li>Temperature: <span id="temp"></span><span>°C</span></li>
+                    <li>Wind Degrees: <span id="wind_degrees"></span></li>
+                    <li>Wind Speed: <span id="wind_speed"></span><span>km/h</span></li>
+                </ul>
+            </div>
+            <div class="city_details">
+                <div>
+                    <h1 id="city_details"></h1>
+                </div>
+                <div>
+                    <h3 id="temperature_outer"><span style="margin-left: 40px ;">Temperature: </span> <span
+                            id="temperature" style="font-size: 50px;"></span><span id="temperature_suffix"></span></h3>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <input id="city" type="text" name="city"> -->
+
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>

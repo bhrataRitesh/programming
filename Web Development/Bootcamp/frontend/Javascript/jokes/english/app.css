@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Shadows Into Light', cursive;
+}
+/* div h2{
+    width: 30%;
+    height: 50vh;
+    margin: 5% 40%;
+    border: 1px solid;
+}
+button{
+    width: 10%;
+    margin-left: 50% ;
+} */
+/* ul{
+    margin-left: 40%;
+} */
+
+/* li{list-style: none;} */
+
+body{
+    background:#FFCE00;
+}
+button{
+    margin-left: 50% ;
+    padding:0px 10px;
+    font-size:1.5rem;
+    border-radius: 10px;
+}
+#jokes1{
+    font-weight:900;
+    margin: 20px;
+    min-height:300px;
+    font-size:4rem;
+    color:#262228;
+}
+
