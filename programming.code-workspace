@@ -2,6 +2,9 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "Web Development/Bootcamp/frontend/Javascript/WeatherApp"
     }
   ],
   "settings": {
