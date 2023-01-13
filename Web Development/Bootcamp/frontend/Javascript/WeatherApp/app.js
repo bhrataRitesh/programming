@@ -1,4 +1,6 @@
-// import axios from "axios";
+const apIKey = require("./apikey");
+console.log(apIKey);
+// const apIKey = "e815b6a43dmshaf05aadc924417ep1259d8jsn096443c23012";
 
 // const city = prompt("Enter your city name:");
 var cityName = document.querySelector(".city-name");
@@ -9,7 +11,7 @@ cityName.addEventListener("change", (event) => {
 });
 
 console.log(cityName);
-const cloud_Pact = document.querySelector("#cloud_pact");
+// const cloud_Pact = document.querySelector("#cloud_pact");
 const search = document.querySelector("#search");
 search.addEventListener("click", function (e) {
   e.preventDefault();
@@ -18,7 +20,7 @@ search.addEventListener("click", function (e) {
     url: "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather",
     params: { city: `${cityNameBro}` },
     headers: {
-      "X-RapidAPI-Key": "e815b6a43dmshaf05aadc924417ep1259d8jsn096443c23012",
+      "X-RapidAPI-Key": apIKey,
       "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com",
     },
   };
