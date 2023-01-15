@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home2</title>
+    </head>
+
+    <body>
+        <h1>You are views random number <%= random %>
+        </h1>
+        <% if(random%2==0){ %>
+            <h2>Even Number</h2>
+            <%}else {%>
+                <h2>Odd Number</h2>
+                <%}%>
+
+                    <!--or-->
+                    <h2>
+                        <%= (random%2==0) ? 'EVEN' : 'ODD' %>
+                    </h2>
+    </body>
+
+</html>

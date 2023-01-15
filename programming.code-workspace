@@ -12,9 +12,8 @@
       "iostream": "cpp",
       "random": "cpp"
     },
-    "liveServer.settings.multiRootWorkspaceName": "WeatherApp",
+    "liveServer.settings.multiRootWorkspaceName": "programming",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.env.windows": {
-    }
+    "terminal.integrated.env.windows": {}
   }
 }
