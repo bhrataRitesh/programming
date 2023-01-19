@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "method-override": "^3.0.0",
+    "uuid": "^9.0.0"
+  }
+}
